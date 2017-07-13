@@ -63,7 +63,7 @@ const DataSet = React.createClass({
             // center vertically to have upper and lower part of the waveform
             const vy = height / 2 - yValue / 2;
             //position x(e) * width * 2 because we want equal sapce.
-            const vx = 2 * x0 * index;
+            const vx = x0 * index;
 
             return (
                 <Bar
